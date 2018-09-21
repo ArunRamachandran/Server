@@ -1,4 +1,4 @@
-const express = requires('express');
+const express = require('express');
 const bodyParser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient;
 require('dotenv').config();
@@ -14,5 +14,5 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET route
 app.get('/test', (req, res) => {
-    res.send({ express: 'WE will do it  :) ' });
+    res.send({ express: 'Rays of hope .. :) ' });
 })
