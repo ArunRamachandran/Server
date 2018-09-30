@@ -13,4 +13,8 @@ router.get('/outTime', (req, res) => {
   res.send({status: true, response: 'OUT time recorded'});
 })
 
+router.get('/feedback', (req, res) => {
+  res.send({status: true, response: 'Feedback received'});
+})
+
 module.exports = router;
